@@ -1,0 +1,579 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.41.5",
+  "hash": "b15b8ce82fd5569c2836",
+  "publicPath": "/static/",
+  "outputPath": "/home/alex/Codes/Code_for_articles/react-ssr/dist/web",
+  "assetsByChunkName": {
+    "main~bfe0ed74": [
+      "main~bfe0ed74.de07571c.css",
+      "0-de07571c.js"
+    ],
+    "pages-about-AboutPage~6d617b0a": [
+      "1.46d16d44.css",
+      "1-46d16d44.js"
+    ],
+    "pages-contact-ContactPage~add718e3": [
+      "2.8aa4a57a.css",
+      "2-8aa4a57a.js"
+    ],
+    "pages-home-HomePage~355df51d": [
+      "3.a83843c4.css",
+      "3-a83843c4.js"
+    ],
+    "vendors~main~9b1fde68": "4-b2b3c1b0.js"
+  },
+  "assets": [
+    {
+      "name": "0-de07571c.js",
+      "size": 7213,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main~bfe0ed74"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "1-46d16d44.js",
+      "size": 406,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "pages-about-AboutPage~6d617b0a"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "1.46d16d44.css",
+      "size": 33,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "pages-about-AboutPage~6d617b0a"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "2-8aa4a57a.js",
+      "size": 641,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "pages-contact-ContactPage~add718e3"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "2.8aa4a57a.css",
+      "size": 38,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "pages-contact-ContactPage~add718e3"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "3-a83843c4.js",
+      "size": 720,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "pages-home-HomePage~355df51d"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "3.a83843c4.css",
+      "size": 0,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "pages-home-HomePage~355df51d"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "4-b2b3c1b0.js",
+      "size": 285982,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "vendors~main~9b1fde68"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "4-b2b3c1b0.js.LICENSE.txt",
+      "size": 1037,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "android-chrome-192x192.png",
+      "size": 13891,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "android-chrome-512x512.png",
+      "size": 76492,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "apple-touch-icon.png",
+      "size": 14492,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "favicon-16x16.png",
+      "size": 524,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "favicon-32x32.png",
+      "size": 1087,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "favicon.ico",
+      "size": 15406,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/icons/email.svg",
+      "size": 408,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "index.html",
+      "size": 1301,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "main~bfe0ed74.de07571c.css",
+      "size": 192245,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main~bfe0ed74"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "robots.txt",
+      "size": 23,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "site.webmanifest",
+      "size": 326,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        4,
+        0
+      ],
+      "assets": [
+        "4-b2b3c1b0.js",
+        "main~bfe0ed74.de07571c.css",
+        "0-de07571c.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        4,
+        0
+      ],
+      "assets": [
+        "4-b2b3c1b0.js",
+        "main~bfe0ed74.de07571c.css",
+        "0-de07571c.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-home-HomePage": {
+      "chunks": [
+        3
+      ],
+      "assets": [
+        "3.a83843c4.css",
+        "3-a83843c4.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-about-AboutPage": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "1.46d16d44.css",
+        "1-46d16d44.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-contact-ContactPage": {
+      "chunks": [
+        2
+      ],
+      "assets": [
+        "2.8aa4a57a.css",
+        "2-8aa4a57a.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/static/",
+      "outputPath": "/home/alex/Codes/Code_for_articles/react-ssr/dist/web",
+      "assetsByChunkName": {},
+      "assets": [
+        {
+          "name": "index.html",
+          "size": 546576,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "index.html"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "index.html"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "html-webpack-plugin for \"index.html\""
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/static/",
+      "outputPath": "/home/alex/Codes/Code_for_articles/react-ssr/dist/web",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!components/style.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/static/",
+      "outputPath": "/home/alex/Codes/Code_for_articles/react-ssr/dist/web",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!main.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/static/",
+      "outputPath": "/home/alex/Codes/Code_for_articles/react-ssr/dist/web",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!pages/about/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/static/",
+      "outputPath": "/home/alex/Codes/Code_for_articles/react-ssr/dist/web",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!pages/contact/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/static/",
+      "outputPath": "/home/alex/Codes/Code_for_articles/react-ssr/dist/web",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!pages/home/styles.scss"
+    }
+  ]
+}
