@@ -1,33 +1,35 @@
 {
   "errors": [],
   "warnings": [],
-  "version": "4.41.5",
-  "hash": "b15b8ce82fd5569c2836",
+  "version": "4.42.0",
+  "hash": "8e00468dac18a2bef1d3",
   "publicPath": "/static/",
-  "outputPath": "/home/alex/Codes/Code_for_articles/react-ssr/dist/web",
+  "outputPath": "/home/alex/Codes/Articles/How To Improve React App Performance with SSR and Rust/react-ssr/dist/web",
   "assetsByChunkName": {
     "main~bfe0ed74": [
-      "main~bfe0ed74.de07571c.css",
-      "0-de07571c.js"
+      "main~bfe0ed74.ea3da030.css",
+      "0-ea3da030.js"
     ],
     "pages-about-AboutPage~6d617b0a": [
-      "1.46d16d44.css",
-      "1-46d16d44.js"
+      "1.d47adfda.css",
+      "1-d47adfda.js"
     ],
     "pages-contact-ContactPage~add718e3": [
-      "2.8aa4a57a.css",
-      "2-8aa4a57a.js"
+      "2.77cee414.css",
+      "2-77cee414.js"
     ],
-    "pages-home-HomePage~355df51d": [
-      "3.a83843c4.css",
-      "3-a83843c4.js"
+    "pages-home-HomePage~f075b844": [
+      "3.418dd498.css",
+      "3-418dd498.js"
     ],
-    "vendors~main~9b1fde68": "4-b2b3c1b0.js"
+    "vendors~main~9b1fde68": "4-beee529a.js",
+    "vendors~pages-home-HomePage~19bb5a55": "5-072e8be0.js",
+    "vendors~pages-home-HomePage~abc7f617": "6-a3fe57e8.js"
   },
   "assets": [
     {
-      "name": "0-de07571c.js",
-      "size": 7213,
+      "name": "0-ea3da030.js",
+      "size": 7294,
       "chunks": [
         0
       ],
@@ -40,7 +42,7 @@
       "emitted": false
     },
     {
-      "name": "1-46d16d44.js",
+      "name": "1-d47adfda.js",
       "size": 406,
       "chunks": [
         1
@@ -54,7 +56,7 @@
       "emitted": false
     },
     {
-      "name": "1.46d16d44.css",
+      "name": "1.d47adfda.css",
       "size": 33,
       "chunks": [
         1
@@ -68,7 +70,7 @@
       "emitted": false
     },
     {
-      "name": "2-8aa4a57a.js",
+      "name": "2-77cee414.js",
       "size": 641,
       "chunks": [
         2
@@ -82,7 +84,7 @@
       "emitted": false
     },
     {
-      "name": "2.8aa4a57a.css",
+      "name": "2.77cee414.css",
       "size": 38,
       "chunks": [
         2
@@ -96,13 +98,13 @@
       "emitted": false
     },
     {
-      "name": "3-a83843c4.js",
-      "size": 720,
+      "name": "3-418dd498.js",
+      "size": 44895,
       "chunks": [
         3
       ],
       "chunkNames": [
-        "pages-home-HomePage~355df51d"
+        "pages-home-HomePage~f075b844"
       ],
       "info": {
         "immutable": true
@@ -110,13 +112,13 @@
       "emitted": false
     },
     {
-      "name": "3.a83843c4.css",
-      "size": 0,
+      "name": "3.418dd498.css",
+      "size": 46,
       "chunks": [
         3
       ],
       "chunkNames": [
-        "pages-home-HomePage~355df51d"
+        "pages-home-HomePage~f075b844"
       ],
       "info": {
         "immutable": true
@@ -124,8 +126,8 @@
       "emitted": false
     },
     {
-      "name": "4-b2b3c1b0.js",
-      "size": 285982,
+      "name": "4-beee529a.js",
+      "size": 285600,
       "chunks": [
         4
       ],
@@ -138,11 +140,39 @@
       "emitted": false
     },
     {
-      "name": "4-b2b3c1b0.js.LICENSE.txt",
+      "name": "4-beee529a.js.LICENSE.txt",
       "size": 1037,
       "chunks": [],
       "chunkNames": [],
       "info": {},
+      "emitted": false
+    },
+    {
+      "name": "5-072e8be0.js",
+      "size": 823110,
+      "chunks": [
+        5
+      ],
+      "chunkNames": [
+        "vendors~pages-home-HomePage~19bb5a55"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "6-a3fe57e8.js",
+      "size": 32414,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "vendors~pages-home-HomePage~abc7f617"
+      ],
+      "info": {
+        "immutable": true
+      },
       "emitted": false
     },
     {
@@ -194,8 +224,416 @@
       "emitted": false
     },
     {
+      "name": "fonts/kranky-v10-latin-regular.eot",
+      "size": 86016,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/kranky-v10-latin-regular.ttf",
+      "size": 190508,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/kranky-v10-latin-regular.woff",
+      "size": 90936,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/kranky-v10-latin-regular.woff2",
+      "size": 76028,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/press-start-2p-v8-latin-regular.eot",
+      "size": 14688,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/press-start-2p-v8-latin-regular.ttf",
+      "size": 41036,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/press-start-2p-v8-latin-regular.woff",
+      "size": 15056,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/press-start-2p-v8-latin-regular.woff2",
+      "size": 12360,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/fonts/kranky-v10-latin-regular.svg",
+      "size": 700996,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/fonts/press-start-2p-v8-latin-regular.svg",
+      "size": 31002,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
       "name": "images/public/icons/email.svg",
       "size": 408,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/C3PO.jpg",
+      "size": 135735,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/DexterJettster.jpg",
+      "size": 14622,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/K2so.jpg",
+      "size": 36424,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/Kitonak.jpg",
+      "size": 14965,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/Kushiban.jpg",
+      "size": 17662,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/Oola.jpg",
+      "size": 35464,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/Padme-Amidala.jpg",
+      "size": 52207,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/QuiGonJinn.jpg",
+      "size": 41845,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/R2D2.jpg",
+      "size": 155823,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/Rodian.jpg",
+      "size": 15789,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/Sebulba.jpg",
+      "size": 54191,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/admiral-motti.jpg",
+      "size": 33904,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/admiralHoldo.jpg",
+      "size": 29967,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/bb-8.jpg",
+      "size": 16382,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/bobaFett.jpg",
+      "size": 38306,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/chew.jpg",
+      "size": 57646,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/darth-maul.jpg",
+      "size": 55416,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/darthVader.jpg",
+      "size": 50986,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/ddmiralFirmusPiett.jpg",
+      "size": 34156,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/dooku.jpg",
+      "size": 46987,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/eV9D9.jpg",
+      "size": 52068,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/enfys-nest.jpg",
+      "size": 34133,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/finn.jpg",
+      "size": 40485,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/hanSolo.jpg",
+      "size": 43431,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/jaba.jpg",
+      "size": 50636,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/jangoFett.jpg",
+      "size": 45185,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/kyloRen.jpg",
+      "size": 31382,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/lando.jpg",
+      "size": 39032,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/leia.jpg",
+      "size": 173935,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/luke.jpg",
+      "size": 28587,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/maceWindu.jpg",
+      "size": 33584,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/monMothma.jpg",
+      "size": 50155,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/obi-kenobi.jpg",
+      "size": 39803,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/poeDameron.jpg",
+      "size": 46498,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/poster.jpg",
+      "size": 728568,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/qira.jpg",
+      "size": 34332,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/rey.jpg",
+      "size": 37006,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/theEmperor.jpg",
+      "size": 30646,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/uncleOwen.jpg",
+      "size": 57165,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/wedgeAntilles.jpg",
+      "size": 40590,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/public/images/yoda.jpg",
+      "size": 42677,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -210,8 +648,8 @@
       "emitted": false
     },
     {
-      "name": "main~bfe0ed74.de07571c.css",
-      "size": 192245,
+      "name": "main~bfe0ed74.ea3da030.css",
+      "size": 193391,
       "chunks": [
         0
       ],
@@ -248,9 +686,9 @@
         0
       ],
       "assets": [
-        "4-b2b3c1b0.js",
-        "main~bfe0ed74.de07571c.css",
-        "0-de07571c.js"
+        "4-beee529a.js",
+        "main~bfe0ed74.ea3da030.css",
+        "0-ea3da030.js"
       ],
       "children": {},
       "childAssets": {}
@@ -263,20 +701,24 @@
         0
       ],
       "assets": [
-        "4-b2b3c1b0.js",
-        "main~bfe0ed74.de07571c.css",
-        "0-de07571c.js"
+        "4-beee529a.js",
+        "main~bfe0ed74.ea3da030.css",
+        "0-ea3da030.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "pages-home-HomePage": {
       "chunks": [
+        6,
+        5,
         3
       ],
       "assets": [
-        "3.a83843c4.css",
-        "3-a83843c4.js"
+        "6-a3fe57e8.js",
+        "5-072e8be0.js",
+        "3.418dd498.css",
+        "3-418dd498.js"
       ],
       "children": {},
       "childAssets": {}
@@ -286,8 +728,8 @@
         1
       ],
       "assets": [
-        "1.46d16d44.css",
-        "1-46d16d44.js"
+        "1.d47adfda.css",
+        "1-d47adfda.js"
       ],
       "children": {},
       "childAssets": {}
@@ -297,8 +739,8 @@
         2
       ],
       "assets": [
-        "2.8aa4a57a.css",
-        "2-8aa4a57a.js"
+        "2.77cee414.css",
+        "2-77cee414.js"
       ],
       "children": {},
       "childAssets": {}
@@ -316,7 +758,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/static/",
-      "outputPath": "/home/alex/Codes/Code_for_articles/react-ssr/dist/web",
+      "outputPath": "/home/alex/Codes/Articles/How To Improve React App Performance with SSR and Rust/react-ssr/dist/web",
       "assetsByChunkName": {},
       "assets": [
         {
@@ -369,7 +811,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/static/",
-      "outputPath": "/home/alex/Codes/Code_for_articles/react-ssr/dist/web",
+      "outputPath": "/home/alex/Codes/Articles/How To Improve React App Performance with SSR and Rust/react-ssr/dist/web",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -405,13 +847,13 @@
         }
       },
       "children": [],
-      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!components/style.scss"
+      "name": "mini-css-extract-plugin ../../../How To Improve React App Performance with SSR and Rust/react-ssr/node_modules/css-loader/dist/cjs.js!../../../How To Improve React App Performance with SSR and Rust/react-ssr/node_modules/sass-loader/dist/cjs.js!../../../How To Improve React App Performance with SSR and Rust/react-ssr/node_modules/postcss-loader/src/index.js!../../../How To Improve React App Performance with SSR and Rust/react-ssr/src/components/style.scss"
     },
     {
       "errors": [],
       "warnings": [],
       "publicPath": "/static/",
-      "outputPath": "/home/alex/Codes/Code_for_articles/react-ssr/dist/web",
+      "outputPath": "/home/alex/Codes/Articles/How To Improve React App Performance with SSR and Rust/react-ssr/dist/web",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -447,13 +889,13 @@
         }
       },
       "children": [],
-      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!main.scss"
+      "name": "mini-css-extract-plugin ../../../How To Improve React App Performance with SSR and Rust/react-ssr/node_modules/css-loader/dist/cjs.js!../../../How To Improve React App Performance with SSR and Rust/react-ssr/node_modules/sass-loader/dist/cjs.js!../../../How To Improve React App Performance with SSR and Rust/react-ssr/node_modules/postcss-loader/src/index.js!../../../How To Improve React App Performance with SSR and Rust/react-ssr/src/main.scss"
     },
     {
       "errors": [],
       "warnings": [],
       "publicPath": "/static/",
-      "outputPath": "/home/alex/Codes/Code_for_articles/react-ssr/dist/web",
+      "outputPath": "/home/alex/Codes/Articles/How To Improve React App Performance with SSR and Rust/react-ssr/dist/web",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -489,13 +931,13 @@
         }
       },
       "children": [],
-      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!pages/about/styles.scss"
+      "name": "mini-css-extract-plugin ../../../How To Improve React App Performance with SSR and Rust/react-ssr/node_modules/css-loader/dist/cjs.js!../../../How To Improve React App Performance with SSR and Rust/react-ssr/node_modules/sass-loader/dist/cjs.js!../../../How To Improve React App Performance with SSR and Rust/react-ssr/node_modules/postcss-loader/src/index.js!../../../How To Improve React App Performance with SSR and Rust/react-ssr/src/pages/about/styles.scss"
     },
     {
       "errors": [],
       "warnings": [],
       "publicPath": "/static/",
-      "outputPath": "/home/alex/Codes/Code_for_articles/react-ssr/dist/web",
+      "outputPath": "/home/alex/Codes/Articles/How To Improve React App Performance with SSR and Rust/react-ssr/dist/web",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -531,13 +973,13 @@
         }
       },
       "children": [],
-      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!pages/contact/styles.scss"
+      "name": "mini-css-extract-plugin ../../../How To Improve React App Performance with SSR and Rust/react-ssr/node_modules/css-loader/dist/cjs.js!../../../How To Improve React App Performance with SSR and Rust/react-ssr/node_modules/sass-loader/dist/cjs.js!../../../How To Improve React App Performance with SSR and Rust/react-ssr/node_modules/postcss-loader/src/index.js!../../../How To Improve React App Performance with SSR and Rust/react-ssr/src/pages/contact/styles.scss"
     },
     {
       "errors": [],
       "warnings": [],
       "publicPath": "/static/",
-      "outputPath": "/home/alex/Codes/Code_for_articles/react-ssr/dist/web",
+      "outputPath": "/home/alex/Codes/Articles/How To Improve React App Performance with SSR and Rust/react-ssr/dist/web",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -573,7 +1015,7 @@
         }
       },
       "children": [],
-      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!pages/home/styles.scss"
+      "name": "mini-css-extract-plugin ../../../How To Improve React App Performance with SSR and Rust/react-ssr/node_modules/css-loader/dist/cjs.js!../../../How To Improve React App Performance with SSR and Rust/react-ssr/node_modules/sass-loader/dist/cjs.js!../../../How To Improve React App Performance with SSR and Rust/react-ssr/node_modules/postcss-loader/src/index.js!../../../How To Improve React App Performance with SSR and Rust/react-ssr/src/pages/home/styles.scss"
     }
   ]
 }

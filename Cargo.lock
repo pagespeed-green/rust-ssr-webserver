@@ -1254,21 +1254,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-ssr-webserver"
-version = "0.1.0"
-dependencies = [
- "actix-files",
- "actix-rt",
- "actix-web",
- "env_logger",
- "futures",
- "lazy_static",
- "mime_guess",
- "rustls",
- "serde_json",
-]
-
-[[package]]
 name = "rustc-demangle"
 version = "0.1.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1403,6 +1388,21 @@ name = "spin"
 version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6e63cff320ae2c57904679ba7cb63280a3dc4613885beafb148ee7bf9aa9042d"
+
+[[package]]
+name = "ssr_webserver"
+version = "0.1.0"
+dependencies = [
+ "actix-files",
+ "actix-rt",
+ "actix-web",
+ "env_logger",
+ "futures",
+ "lazy_static",
+ "mime_guess",
+ "rustls",
+ "serde_json",
+]
 
 [[package]]
 name = "syn"

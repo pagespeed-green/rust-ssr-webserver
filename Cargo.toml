@@ -1,5 +1,5 @@
 [package]
-name = "rust-ssr-webserver"
+name = "ssr_webserver"
 version = "0.1.0"
 authors = ["Alex Tkachuk <alex@pagespeed.green>"]
 edition = "2018"

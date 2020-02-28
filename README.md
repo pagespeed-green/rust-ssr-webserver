@@ -2,7 +2,7 @@
 
 This is a complete example for the article:  
 
-[Boosting React App performance with SSR and Rust [Part II: Rust Web Server]](https://hackernoon.com/how-to-improve-react-app-performance-with-ssr-and-rust-part-ii-rust-web-server-vb1a373h)
+[Boosting React App performance with SSR and Rust [Part II: Rust Web Server]](https://pagespeed.green/blog/how-to-improve-react-app-performance-with-ssr-and-rust-part-ii-rust-web-server)
 
 ## Install Rust
 
